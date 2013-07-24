@@ -1,0 +1,66 @@
+Xft.dpi:96
+urxvt.inputMethod:	    fcitx
+!! RXVT-unicode setting
+urxvt.background:           black
+urxvt.foreground:           grey
+urxvt.scrollBar:            False
+urxvt.scrollstyle:          next
+! Use shift+pageup/down to scroll in screen
+! urxvt.secondaryScroll:  True
+!set the artificial transparency of the v.t.
+urxvt.inheritPixmap:	    True
+urxvt.tintColor:            grey
+urxvt.shading:              25
+urxvt.saveLines:            1000
+urxvt.preeditType:          Root
+urxvt.borderLess:           False
+urxvt.title:                urxvt
+
+!urxvt.backgroundPixmap:			/home/bluedeep/rxvtbg.xpm;80x24
+!italicFont and boldItalicFont undefined
+!-*-fixed-medium-r-*-*-15-*-*-*-*-*-*-*,mono,\
+! urxvt.font:xft:Monospace:size=12, \
+urxvt.font:xft:DejaVu Sans Mono:size=12, \
+xft:wenquanyi bitmap song:medium:size=12:antialias=False
+!-*-fixed-bold-r-*-*-15-*-*-*-*-*-*-*,\
+! urxvt.boldFont:xft:Monospace:bold:size=12,\
+urxvt.boldFont:xft:DejaVu Sans Mono:bold:size=12,\
+xft:wenquanyi bitmap song:bold:size=12:antialias=False
+!urxvt.font:xft:terminus:medium:size=13:antialias=false,\
+!xft:wenquanyi bitmap song:medium:pixelsize=13:antialias=False
+
+
+! urxvt.inheritPixmap:        True
+urxvt.tintColor:            black
+urxvt.shading:              20
+
+
+!redefine color to use tango theme in vim
+!Black
+urxvt.color0:           #000000
+urxvt.color8:           #555753
+!Red
+urxvt.color1:           #CC0000
+urxvt.color9:           #EF2929
+!Green
+urxvt.color2:           #4E9A06
+urxvt.color10:          #8AE234
+!Yellow
+urxvt.color3:           #C4A000
+!urxvt.color11:          #FCE94F
+urxvt.color11:          #914B06
+!Blue
+urxvt.color4:           #3465A4
+urxvt.color12:          #729FCF
+!Magenta
+urxvt.color5:           #75507B
+urxvt.color13:          #AD7FA8
+!Cyan
+urxvt.color6:           #06989A
+urxvt.color14:          #34E2E2
+!White
+urxvt.color7:           #D3D7CF
+urxvt.color15:          #EEEEEC
+
+! URxvt.depth:32
+! URxvt.background:[80]black
