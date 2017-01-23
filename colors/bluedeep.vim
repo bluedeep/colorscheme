@@ -4,7 +4,7 @@
 
 hi clear
 
-let colors_name = "bluedeep"
+let g:colors_name = 'bluedeep'
 
 " Normal should come first
 hi Normal     guifg=Black  guibg=White
@@ -18,10 +18,13 @@ hi DiffDelete ctermfg=Blue	   ctermbg=LightCyan gui=bold guifg=Blue guibg=LightC
 hi DiffText   ctermbg=Red	   cterm=bold gui=bold guibg=Red
 hi Directory  ctermfg=DarkBlue	   guifg=Blue
 hi ErrorMsg   ctermfg=White	   ctermbg=DarkRed  guibg=Red	    guifg=White
-hi FoldColumn ctermfg=DarkBlue	   ctermbg=Grey     guibg=Grey	    guifg=DarkBlue
-hi Folded     ctermbg=LightGrey	   ctermfg=DarkBlue guibg=LightGrey guifg=DarkBlue
+hi FoldColumn ctermfg=DarkBlue	   ctermbg=Gray     guibg=Gray	    guifg=DarkBlue
+hi Folded     ctermbg=LightGray	   ctermfg=DarkBlue guibg=LightGray guifg=DarkBlue
 hi IncSearch  cterm=reverse	   gui=reverse
 hi LineNr     ctermfg=11	   guifg=Brown
+hi SignColumn ctermbg=Black
+hi ALEErrorSign ctermbg=Black ctermfg=Red
+hi ALEWarningSign ctermbg=Black ctermfg=darkGray
 hi ModeMsg    cterm=bold	   gui=bold
 hi MoreMsg    ctermfg=Cyan    gui=bold guifg=SeaGreen
 hi NonText    ctermfg=Gray    gui=bold guifg=gray guibg=white
@@ -34,7 +37,7 @@ hi StatusLine cterm=bold	   ctermbg=brown ctermfg=darkBlue guibg=gold guifg=blue
 hi StatusLineNC	cterm=bold	   ctermbg=brown ctermfg=blue  guibg=gold guifg=blue
 hi Title      ctermfg=DarkMagenta  gui=bold guifg=Magenta
 hi VertSplit  cterm=reverse	   gui=reverse
-hi Visual     ctermbg=NONE	   cterm=reverse gui=reverse guifg=Grey guibg=fg
+hi Visual     ctermbg=NONE	   cterm=reverse gui=reverse guifg=Gray guibg=fg
 hi VisualNOS  cterm=underline,bold gui=underline,bold
 hi WarningMsg ctermfg=DarkRed	   guifg=Red
 hi WildMenu   ctermfg=Black	   ctermbg=yellow    guibg=Yellow guifg=Black
